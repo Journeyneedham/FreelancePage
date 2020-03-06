@@ -54,13 +54,16 @@ html {
 article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
 
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     #hideArea {
         display: none!important;
     }
     #newArea {
       place-content: center;
       text-align: center;
+    }
+    #mobileImage {
+      display: initial!important;
     }
 }
 body {
