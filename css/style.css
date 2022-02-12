@@ -40,6 +40,19 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+.service-links {
+
+  color: #000000;
+  border-bottom: 3px solid #d35c49;
+
+}
+.service-links:hover {
+
+  background-color: #d35c49;
+  color: #000000;
+
+}
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -7968,10 +7981,10 @@ h1, h2, h3, h4, h5,
 
 .btn {
   cursor: pointer;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  -ms-border-radius: 30px;
-  border-radius: 30px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
   -webkit-box-shadow: none !important;
   box-shadow: none !important; }
   .btn:hover, .btn:active, .btn:focus {
